@@ -1,0 +1,86 @@
+# python notes w3schools
+print("Hello, World!")
+
+#if statement: you have to use the same number of spaces in the same block of code, 
+# otherwise you get an error. also you can decide how much to indent, but usually 4.
+if 5 > 2:
+    print("5 is greater than 2!")
+
+#variables in python: there is no way to declare a variable in python 
+x = 5
+y = "Hello World!"
+ 
+ #okay great so going along with the no declaring variable thing. 
+ # you can declare it technically, but it just assumes what it is. it's easier to show w example
+ x = 4 #wow ! int!
+ x = "slay" #wow! string!
+
+ #for specifiying data type of a variable, you can cast it!
+ x = str(3) #so x will be '3'
+ x = int(3) # x will be 3
+ x = float(3) #x will be 3.0 
+
+ #wow! you can also get the class type by using the command type!!
+
+ x = 5
+ y = "slay"
+ print(type(x))
+ print(type(y)) 
+ # this will print out <class 'int'> and <class 'str'>
+
+ #okay lets move on to variable names.
+# not much. a variable has to start w a letter or underscore. and it's case sensitive.
+
+# omg u can assign multiple values to different things!! wow!!
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+# this will print 
+# Orange
+# Banana
+# Cherry 
+
+#or if u want, you can be extra 
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+ # this will print out orange three times! wow!
+
+ #ok queen lets unpack this. 
+ fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+# this will assign x to apple, y to banana and z to cherry!
+
+# print 
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+# prints Python is awesome 
+
+x = 5
+y = "John"
+print(x, y)
+#prints 5 John (for different types)
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+#prints out Python is fantastic and then Python is awesome. 
+#global variables rewrite variables in the global scope! that's why they're global.
+
+# pick up again at Data types 
+# https://www.w3schools.com/python/python_datatypes.asp
